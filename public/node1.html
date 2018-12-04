@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Node1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
+    <script src="./js/node1.js"></script>
+</head>
+<body>
+<h2> I'm node1</h2>
+Mod de comunicare: <input type="text" id="comunicare">
+<button onclick="sendOP()" style="display: block; margin-top: 20px;">Trimite mod de operare</button>
+<p id="key" style="display: inline;"></p>
+<p id="decrypt" style="display: inline;"></p>
+<p id="announce" style="display: inline;"></p>
+<input type='file' accept='text/plain' onchange='openFile(event)'>
+<br><br><hr>
+
+
+</body>
+</html>
